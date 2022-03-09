@@ -57,11 +57,15 @@ body{
 .song a{
     color: var(--Bright-blue);
 }
+.song a:hover{
+    color: var(--Desaturated-blue);
+    text-decoration: none;
+}
 .song img{
     margin-left: 1rem;
 }
 .song-info{
-    margin-right: 3rem;
+    margin-right: 1.5rem;
 }
 .song-info span{
     color: var(--Dark-blue);
@@ -86,7 +90,7 @@ body{
     color: var(--Desaturated-blue);
 }
 .cancel:hover{
-    color: var(--Bright-blue);
+    color: var(--Dark-blue);
 }
 
 
